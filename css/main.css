@@ -5,7 +5,7 @@
 .header {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100;
     height: 6.25rem;
 	display: flex;
 	flex-direction: column;
@@ -22,8 +22,8 @@
 
 .menuitems {
 	font-family: "Rubik", sans-serif;
-	color: #4a4a4a;
     font-size: 1rem;
+    text-transform: uppercase;
 	display: flex;
 	justify-content: center;
     align-items: :center;
@@ -32,7 +32,11 @@
 
 .menuitem1, .menuitem2 {
     margin: 0 0.625rem;
-    text-transform: uppercase;
+    
+}
+.menulink{
+    text-decoration: none;
+    color: #4a4a4a;
 }
 
 .main{

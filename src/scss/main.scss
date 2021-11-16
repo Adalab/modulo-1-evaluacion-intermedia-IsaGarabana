@@ -1,3 +1,12 @@
+@import 'core/variables';
+@import 'core/reset';
+@import 'components/code';
+@import 'components/links';
+@import 'layout/page';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'pages/index';
+
 /* #4a4a4a (Texto del menú)
 #3CDBC0 (Color de fondo de la página)
 #FFFFFF (Color de texto de "Creando diversidad digital")*/
@@ -83,7 +92,6 @@
        margin: 0 .625rem;
    }
   
-   }
    .text{
        font-size: 2.5rem;
        width: 10%;
